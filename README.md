@@ -1,4 +1,4 @@
-<h2>Simple Docker Webapp (AWS-Router53&EC2,Docker,CertBot,Nginx,Nginx Reverse Proxy,Domain-Freenom)</h2>
+<h2>Simple Docker Webapp (AWS-Router53 & EC2,Docker,CertBot,Nginx,Nginx Reverse Proxy,Domain-Freenom)</h2>
 
 1. First create a ec2 instance (Ubuntu) with SG allowing ports 80,443,8081,8082
 
