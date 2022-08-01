@@ -6,7 +6,9 @@
 
 3. Create a basic html page , run a nginx container on ec2 instance and use the html page
 
-   "docker run --name nginx -v /data/www/:/usr/share/nginx/html:ro -d -p 8081:80 nginx"
+   ```sh
+   docker run --name nginx -v /data/www/:/usr/share/nginx/html:ro -d -p 8081:80 nginx
+   ```
 
 4. Edit the freenom domain nameservers to use that of route53 also create a www <b>A</b> record in route53 and create a nginx reverse proxy config in the <b>/etc/nginx/conf.d</b> for the www record with the filename <b>Ex: www.yourdomain.ga.conf</b> and restart nginx service
 
